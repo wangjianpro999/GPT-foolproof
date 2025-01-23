@@ -1,21 +1,3 @@
-# GPT Anti-Dumbing Plugin / GPT防降智插件
-
-[![GitHub Release](https://img.shields.io/github/v/release/wangjianpro999/GPT-foolproof?style=flat-square)](https://github.com/wangjianpro999/GPT-foolproof/releases)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/none?label=Chrome%20Extension&style=flat-square)](https://github.com/wangjianpro999/GPT-foolproof#installation)
-[![GitHub License](https://img.shields.io/github/license/wangjianpro999/GPT-foolproof?color=42b983&style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-![Browser Support](https://img.shields.io/badge/Chrome-88%2B-blue?logo=google-chrome&style=flat-square)
-[![English](https://img.shields.io/badge/Language-English|简体中文-f37626?style=flat-square)](#language-switcher)
-🌐 **Project URL**: [https://github.com/wangjianpro999/GPT-foolproof](https://github.com/wangjianpro999/GPT-foolproof)
-## Table of Contents 📌
-- [Features](#features)
-- [Installation Guide](#installation-guide)
-- [Project Structure](#project-structure)
-- [Technical Architecture](#technical-architecture)
-- [Contribution Guide](#contribution-guide)
-- [License](#license)
-- [Browser Compatibility](#browser-compatibility)
-- [Language Switcher](#language-switcher)
 
 ## Features ✨
 

@@ -1,27 +1,3 @@
-# GPT防降智插件 / GPT Anti-Dumbing Plugin
-
-[![GitHub Release](https://img.shields.io/github/v/release/wangjianpro999/GPT-foolproof?style=flat-square)](https://github.com/wangjianpro999/GPT-foolproof/releases)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/none?label=Chrome%20Extension&style=flat-square)](https://github.com/wangjianpro999/GPT-foolproof#installation)
-[![GitHub License](https://img.shields.io/github/license/wangjianpro999/GPT-foolproof?color=42b983&style=flat-square)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-![Browser Support](https://img.shields.io/badge/Chrome-88%2B-blue?logo=google-chrome&style=flat-square)
-[![English](https://img.shields.io/badge/语言-English|简体中文-f37626?style=flat-square)](#language-switcher)
-
-## 语言切换 🌐
-[简体中文](README.md) |
-[English](README_EN.md)
-
-🌐 **项目地址**: [https://github.com/wangjianpro999/GPT-foolproof](https://github.com/wangjianpro999/GPT-foolproof)
-
-## 目录导航 {#toc}
-- [功能特性](#features)
-- [安装指南](#installation)
-- [项目结构](#structure)
-- [技术架构](#architecture)
-- [贡献指南](#contribution)
-- [许可证](#license)
-- [浏览器兼容性](#compatibility)
-- [语言切换](#language)
 
 ## 功能特性 ✨
 
