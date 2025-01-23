@@ -6,13 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 ![Browser Support](https://img.shields.io/badge/Chrome-88%2B-blue?logo=google-chrome&style=flat-square)
 [![English](https://img.shields.io/badge/Language-English|简体中文-f37626?style=flat-square)](#language-switcher)
-
 🌐 **Project URL**: [https://github.com/wangjianpro999/GPT-foolproof](https://github.com/wangjianpro999/GPT-foolproof)
-
-## Language Switcher 🌐
-[简体中文](README.md) | 
-[English](README_EN.md)
-
 ## Table of Contents 📌
 - [Features](#features)
 - [Installation Guide](#installation-guide)
@@ -31,13 +25,15 @@
 - 📦 Localized Storage Configuration (chrome.storage.local)
 - 🔄 Real-time Session Maintenance (WebSocket Keep-Alive)
 
-### Technology Stack
-| Module | Technology | Version |
-|--------|------------|---------|
-| Network Interception | Declarative Net Request | Chrome 88+ |
-| Content Injection | MutationObserver | Level 2 |
-| State Storage | IndexedDB | v1.0 |
-| UI Framework | Web Components | v1 |
+## Technical Architecture
+
+### Core Architectural Components
+| Module               | Technology                 | Version Requirements |
+|----------------------|----------------------------|----------------------|
+| Network Layer        | Declarative Net Request API| Chrome 88+           |
+| Content Injection    | MutationObserver API       | Level 2              |
+| State Management     | IndexedDB                  | v1.0                 |
+| UI Components        | Web Components             | v1                   |
 
 ## Installation Guide ⚙️
 
@@ -111,5 +107,11 @@ npm run lint # Code quality check
 
 ---
 
-> 🚀 Project under active maintenance - Star & Watch for updates!  
+> 🚀 Project under active maintenance - Star & Watch for updates!
 > ⚠️ Note: Requires ChatGPT official account
+
+## Language Switcher {#language-switcher}
+
+🌐 Select documentation language:
+[简体中文](README.md) |
+[English](README_EN.md)
