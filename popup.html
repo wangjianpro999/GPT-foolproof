@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Android 模拟插件</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="bilingual-title">
+      <span class="lang-cn">GPT防降智插件</span>
+      <span class="lang-en">GPT Anti-Dumbing Plugin</span>
+    </h2>
+    <div class="status-container">
+      <p class="bilingual-text">
+        <span class="lang-cn">当前网站:</span>
+        <span class="lang-en">Current Site:</span>
+        <span id="current-domain"></span>
+      </p>
+      <div id="domain-warning" class="warning" style="display: none;"></div>
+      <p class="bilingual-text">
+        <span class="lang-cn">插件状态:</span>
+        <span class="lang-en">Status:</span>
+        <span id="plugin-status" class="status-enabled">启用/Enabled</span>
+      </p>
+      <button id="toggle-plugin" class="toggle-button">
+        <span class="lang-cn">禁用伪装</span>
+        <span class="lang-en">Disable Camouflage</span>
+      </button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

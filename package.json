@@ -1,0 +1,9 @@
+{
+  "name": "gpt-anti-dumbing-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for GPT conversation protection",
+  "scripts": {
+    "package": "zip -r ../gpt-extension.zip . -x@.zipignore"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "GPT防降智插件",
+  "version": "1.1",
+  "description": "【中文】这是一个对ChatGPT降智的一个反制插件，它不能彻底改变GPT的降智行为，因为您的IP地址有可能被OpenAI判定为被污染的地址段，或者您的账号已经被OpenAI判定为某种需要被控制使用的范围。我们这个插件的目的时尽量减少Web端访问ChatGPT时被降智的其它可能性。\n\n[English] This is a countermeasure plugin against ChatGPT's intelligence reduction. While it cannot completely prevent GPT's reduced performance, as your IP address might be flagged by OpenAI as being in a restricted region, or your account may have been marked for controlled usage, our plugin aims to minimize other potential factors that could trigger intelligence reduction when accessing ChatGPT through the web interface.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": ["*://*.chatgpt.com/*", "*://*.ai.com/*", "*://*.openai.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.chatgpt.com/*", "*://*.ai.com/*", "*://*.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}
