@@ -35,11 +35,7 @@
   - 系统级API接口注入
 
 ## 📦 安装指南
-1. 克隆仓库
-```bash
-git clone https://github.com/your-repo/anti-gpt-degen.git
-```
-2. 浏览器加载
+1. 浏览器加载
 - 访问 `chrome://extensions`
 - 启用「开发者模式」
 - 点击「加载已解压的扩展程序」选择项目目录
