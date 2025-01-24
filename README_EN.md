@@ -35,11 +35,7 @@ Core technical implementations:
   - System-level API interface injection
 
 ## 📦 Installation Guide
-1. Clone repository
-```bash
-git clone https://github.com/your-repo/anti-gpt-degen.git
-```
-2. Browser installation
+1. Browser installation
 - Visit `chrome://extensions`
 - Enable "Developer mode"
 - Click "Load unpacked" and select extension directory
