@@ -83,7 +83,7 @@ graph TD
 ```
 
 ## 🤝 Contribution
-1. Fork the repository
+1. Welcome to the Fork project repository, welcome to click on stars
 2. Create feature branch (`git checkout -b feature/improvement`)
 3. Commit changes (`git commit -m 'Add some feature'`)
 4. Push branch (`git push origin feature/improvement`)
